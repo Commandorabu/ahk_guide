@@ -75,3 +75,44 @@ Send,
 <b><ins> TEXT </ins></b>
 )
 Return
+
+F2::
+Send,
+(
+Hello,
+ 
+Please allow 2-3 business days for payment to show up on your account:
+
+If account information is incorrect, it is the sole responsibility of the carrier company to provide the correct information.
+ 
+
+Thank you.
+
+If I did well, please post a positive review at: https://bit.ly/2qs2u1r .
+)
+Send {DOWN 5}
+Sleep 150
+Send {LEFT 4}
+Sleep 150
+Send Kostiantyn Vezhnovets
+Send {Del 4}
+Return
+
+^F2::
+Send,
+(
+Hello,
+
+ACH deposit for $ 330 was made on XXXXX to:
+
+Please check your account for payment from EasyHaul.com or Autobidmaster.
+
+If I did well, please post a positive review at: https://bit.ly/2qs2u1r .
+)
+Send {DOWN 5}
+Sleep 150
+Send {LEFT 4}
+Sleep 150
+Send Kostiantyn Vezhnovets
+Send {Del 4}
+Return
