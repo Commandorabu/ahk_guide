@@ -13,3 +13,65 @@ Thank you.
 If I did well, please post a positive review at: https://bit.ly/2qs2u1r .
 )
 Return
+
+^F2::
+Send,
+(
+Hello,
+
+ACH deposit for $ 330 was made on XXXXX to:
+
+Please check your account for payment from EasyHaul.com or Autobidmaster.
+
+If I did well, please post a positive review at: https://bit.ly/2qs2u1r .
+)
+Return
+
+F3::
+Send,
+(
+reminded carrier via CD, will call by 7AM PST and cancel if no answer
+)
+Return
+
+^F3::
+Send,
+(
+Hello, it's from EasyHaul regarding CD you requested. Load was assigned to you on Central Dispatch - please accept it there. Please note that payment method we use is ACH direct deposit.
+)
+Return
+
+F6::
+Send,
+(
+If the customer does not call you back, you are free to deliver the vehicle without their presence, please be sure to take a lot of pictures of the vehicle inside, outside, underneath and where it is visible the vehicle is at the delivery location, put keys in a glove compartment or mailbox, send over filled out but unsigned BOL and pictures from the delivery for payment.
+)
+Return
+
+F4:: 
+Send,
+(
+disp n\a, texted reg
+)
+Return
+
+^F4:: 
+Send,
+(
+Hello, it's from EasyHaul regarding CD . Can you please advise
+)
+Return
+
++F1::
+Send,
+(
+Kostiantyn Vezhnovets
+)
+Return
+
++F4::
+Send,
+(
+<b><ins> TEXT </ins></b>
+)
+Return
